@@ -4,7 +4,7 @@ import random
 import genprime
 
 
-def aynrandom(start, stop, numbers=[]):
+def randint(start, stop, numbers=[]):
     if not numbers:
         for number in genprime.genPrimes():
             if number > stop:

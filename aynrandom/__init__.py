@@ -1,7 +1,7 @@
 __author__ = 'David Mitchell'
-__all__=['aynrandom', 'genprime']
+__all__=['andom', 'genprime']
 
-from aynrandom import aynrandom
+from aynrandom import randint
 
 
 if __name__ == '__main__':
