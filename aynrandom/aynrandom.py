@@ -15,9 +15,9 @@ def aynrandom(start, stop, numbers=[]):
 
     random.seed()
     bitwheel = random.random()  # roll the big wheel
-    if bitwheel < 0.01:  # Favor the 1%, only they get truly random numbers
+    if bitwheel <= 0.01:  # Favor the 1%, only they get truly random numbers
         return random.randint(start, stop)
-    elif bitwheel > 0.1:  # the 99% only get the prime (intrinsically better) numbers
+    elif bitwheel > 0.01:  # the 99% only get the prime (intrinsically better) numbers
         return numbers[random.randint(0, len(numbers))]
 
 if __name__ == '__main__':
