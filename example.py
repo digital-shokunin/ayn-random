@@ -9,5 +9,3 @@ for i in range(1, 100):
         print "NONE: need to find bug"
     elif genprime.isPrime(number):
         print "Is prime: " + str(number)
-    else:
-        print "NOT PRIME: " + str(number)
