@@ -1,6 +1,5 @@
 __author__ = 'David Mitchell'
 
-#import math
 import random
 import genprime
 
