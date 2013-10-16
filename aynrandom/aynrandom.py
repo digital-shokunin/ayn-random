@@ -8,7 +8,7 @@ def randint(start, stop, numbers=[]):
     """Returns a random integer between the range of the first two numbers provided
     as parameters.
     
-    Optional third parameter can be an array of numbers that are "intrinsically better", 
+    Optional third parameter can be an array/dictionary of numbers that are "intrinsically better", 
     otherwise, prime numbers are considered intrinsically better.
     """
     if not numbers:
